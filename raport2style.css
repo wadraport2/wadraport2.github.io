@@ -1,0 +1,25 @@
+#container {
+	display: grid;
+	place-items: center;
+}
+
+#editor {
+	width: 95rem;
+}
+
+@media (max-width: 950px) {
+	#editor {
+		width: 100vw;
+	}
+}
+
+@media (min-width: 950px) {
+	#editor {
+		width: 95rem;
+	}
+}
+
+#author {
+	padding: 10px;
+	text-align: right;
+}
